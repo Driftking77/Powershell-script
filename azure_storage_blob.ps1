@@ -1,9 +1,9 @@
 # Variables
-$resourceGroupName = "PZI-GXIN-P-RGP-PRIHE-P001" 
-$storageAccountName = "pcinslprihep001" 
-$containerName = "dbbackuptoday" 
-$filePath = "C:\Users\dsingh322\Downloads\mitdback.bak"  
-$blobName = "dbbackup\mitdback.bak"                   
+$resourceGroupName = "rg-1" 
+$storageAccountName = "st-1" 
+$containerName = "backup" 
+$filePath = "C:\Users\Downloads\mitdback.bak"  
+$blobName = "backup\mitdback.bak"                   
 
 
 Connect-AzAccount
